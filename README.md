@@ -12,6 +12,8 @@ Explore datasets. Compose augmentations. Export reproducible image batches.
 
 </div>
 
+> **Windows desktop preview** — Aug Anything now has a desktop edition with native image selection, folder export, and project save/load. Explore the [desktop development branch](https://github.com/youwantsy/Aug_anything/tree/feature/desktop-app), follow the [build and usage guide](https://github.com/youwantsy/Aug_anything/blob/feature/desktop-app/docs/DESKTOP.md), or review [draft PR #1](https://github.com/youwantsy/Aug_anything/pull/1). You can build the **unsigned preview** from that branch; no binary GitHub Release has been published. The default branch below remains the standalone HTML edition.
+
 ![Aug Anything image augmentation workspace](docs/augmentation-desktop.png)
 
 ## Quick start

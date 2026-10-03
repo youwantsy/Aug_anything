@@ -8,13 +8,22 @@ Explore datasets. Compose augmentations. Export reproducible image batches.
 
 [Quick start](#quick-start) · [Image lab](#image-lab) · [How it works](#how-it-works) · [Validation](#validation)
 
-**One HTML file · No installation · No cloud uploads**
+**Windows desktop preview · Offline image processing · No cloud uploads**
 
 </div>
 
+> **Desktop edition:** this branch adds a standalone Windows application with native image selection, folder export, and explicit project save/load. See the **[Windows desktop guide](docs/DESKTOP.md)** for portable/installer usage, development commands, and validation scope. The original self-contained HTML is preserved below. Executables are delivered locally; no public GitHub Release has been published.
+
+![Aug Anything desktop application](docs/desktop/desktop-app.png)
+
+<details>
+<summary>Original browser workspace</summary>
+
 ![Aug Anything image augmentation workspace](docs/augmentation-desktop.png)
 
-## Quick start
+</details>
+
+## Quick start (standalone HTML)
 
 1. Download this repository using **Code → Download ZIP**, then extract it.
 2. Double-click **`data-management-platform-prototype.html`** in a recent desktop browser.
@@ -122,4 +131,4 @@ README.md                                Product guide and limitations
 - [Yun et al., CutMix](https://arxiv.org/abs/1905.04899) — region replacement and area-proportional labels.
 - [Torchvision CutMix / MixUp guide](https://docs.pytorch.org/vision/main/auto_examples/transforms/plot_cutmix_mixup.html) — classification batch semantics.
 
-No third-party runtime code or font assets are bundled. System fonts are used. The references above do not grant a license to this repository. **No open-source license has been selected for this project.**
+The standalone HTML bundles no third-party runtime code or font assets and uses system fonts. The desktop edition bundles Electron and its component license notices; see [the desktop guide](docs/DESKTOP.md). The references above do not grant a license to this repository. **No open-source license has been selected for this project.**

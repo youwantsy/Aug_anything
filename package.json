@@ -1,0 +1,59 @@
+{
+  "name": "aug-anything-desktop",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Offline image augmentation and dataset workspace for Windows",
+  "author": "Aug Anything contributors",
+  "main": "desktop/main.cjs",
+  "scripts": {
+    "prepare:desktop": "node desktop/build-renderer.cjs",
+    "start": "npm run prepare:desktop && electron .",
+    "test": "node --test desktop/tests/*.test.cjs",
+    "dist:win": "npm run prepare:desktop && electron-builder --win portable nsis --x64 --publish never",
+    "pack:win": "npm run prepare:desktop && electron-builder --win --x64 --dir --publish never",
+    "setup:electron": "node node_modules/electron/install.js",
+    "test:desktop": "node desktop/inspect-app.cjs"
+  },
+  "devDependencies": {
+    "electron": "44.5.1",
+    "electron-builder": "26.15.3"
+  },
+  "build": {
+    "appId": "io.auganything.desktop",
+    "productName": "Aug Anything",
+    "asar": true,
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "desktop/main.cjs",
+      "desktop/preload.cjs",
+      "desktop/storage.cjs",
+      "desktop/generated/**",
+      "desktop/icon.ico",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "portable",
+        "nsis"
+      ],
+      "icon": "desktop/icon.ico",
+      "signAndEditExecutable": true,
+      "signExecutable": false
+    },
+    "portable": {
+      "artifactName": "Aug-Anything-${version}-portable.exe"
+    },
+    "nsis": {
+      "artifactName": "Aug-Anything-${version}-setup.exe",
+      "oneClick": false,
+      "perMachine": false,
+      "allowElevation": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "deleteAppDataOnUninstall": false
+    }
+  }
+}

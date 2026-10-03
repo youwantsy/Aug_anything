@@ -4,3 +4,10 @@ tests/*verification.json
 *.log
 .DS_Store
 Thumbs.db
+node_modules/
+dist/
+desktop/generated/
+desktop/test-output/
+desktop/.cache/
+*.exe
+*.blockmap

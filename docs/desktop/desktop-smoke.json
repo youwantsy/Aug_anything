@@ -1,0 +1,62 @@
+[
+  {
+    "name": "sandboxed renderer",
+    "pass": true
+  },
+  {
+    "name": "native controls",
+    "pass": true
+  },
+  {
+    "name": "catalog event adapter",
+    "pass": true
+  },
+  {
+    "name": "drawer event adapter",
+    "pass": true
+  },
+  {
+    "name": "all detail tabs",
+    "pass": true
+  },
+  {
+    "name": "CSP inline execution blocked",
+    "pass": true
+  },
+  {
+    "name": "recipe change",
+    "pass": true
+  },
+  {
+    "name": "mix math unchanged",
+    "pass": true
+  },
+  {
+    "name": "CSP network blocked",
+    "pass": true
+  },
+  {
+    "name": "unknown resource denied",
+    "pass": true
+  },
+  {
+    "name": "invalid IPC token rejected",
+    "pass": true
+  },
+  {
+    "name": "unsupported save type rejected",
+    "pass": true
+  },
+  {
+    "name": "desktop image generation",
+    "pass": true
+  },
+  {
+    "name": "narrow screen no overflow",
+    "pass": true
+  },
+  {
+    "name": "no uncaught exceptions",
+    "pass": true
+  }
+]

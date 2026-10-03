@@ -1,0 +1,71 @@
+[
+  {
+    "name": "10 initial rows",
+    "pass": true
+  },
+  {
+    "name": "search",
+    "pass": true
+  },
+  {
+    "name": "type and status filters",
+    "pass": true
+  },
+  {
+    "name": "sort",
+    "pass": true
+  },
+  {
+    "name": "grid",
+    "pass": true
+  },
+  {
+    "name": "drawer",
+    "pass": true
+  },
+  {
+    "name": "all detail tabs",
+    "pass": true
+  },
+  {
+    "name": "Escape closes dialog",
+    "pass": true
+  },
+  {
+    "name": "register dialog focus",
+    "pass": true
+  },
+  {
+    "name": "registration and injection escaping",
+    "pass": true
+  },
+  {
+    "name": "activity reflects registration",
+    "pass": true
+  },
+  {
+    "name": "quality page",
+    "pass": true
+  },
+  {
+    "name": "settings",
+    "pass": true
+  },
+  {
+    "name": "mobile document no overflow",
+    "pass": true
+  },
+  {
+    "name": "mobile drawer no overflow",
+    "pass": true
+  },
+  {
+    "name": "refresh resets registration",
+    "pass": true
+  },
+  {
+    "name": "no runtime exceptions",
+    "pass": true,
+    "errors": []
+  }
+]

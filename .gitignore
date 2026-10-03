@@ -1,0 +1,6 @@
+tests/test-downloads/
+tests/*.png
+tests/*verification.json
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,127 @@
+[
+  {
+    "name": "empty input guarded",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "decode errors and URL cleanup",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "multiple real file decoding",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "brightness pixel",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "saturation grayscale pixel",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "hue rotation pixel",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "contrast mean pixel",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "flip pixel",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "rotation expand and crop dimensions",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "resize policies and fit padding",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "MixUp weighted pixel and labels",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "CutMix clipped area equals label weight",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "CutMix identity endpoint and same label sum",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "seed repeat and different seed",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "one input mixing guarded even self enabled",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "batch and PNG decode",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "cancel preserves completed batch and rerun",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "JPG encode and decode",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "catalog records metadata",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "browser PNG and ZIP downloaded",
+    "pass": true
+  },
+  {
+    "name": "ZIP directory and manifest",
+    "pass": true
+  },
+  {
+    "name": "ZIP PNG dimensions",
+    "pass": true
+  },
+  {
+    "name": "decode ZIP image bytes in browser",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "mobile no page overflow",
+    "pass": true,
+    "value": true
+  },
+  {
+    "name": "no runtime exceptions",
+    "pass": true
+  },
+  {
+    "name": "no remote requests",
+    "pass": true
+  }
+]
